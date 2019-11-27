@@ -2,7 +2,7 @@ const Stack = function() {
   return {
     items : [],
     add: function(name){
-    return this.items.push(name);
+    this.items.push(name);
     },
     remove: function(name){
     return this.items.pop(name);
@@ -18,7 +18,7 @@ const Queue = function() {
   return {
     items : [],
     add: function(name){
-      return this.items.push(name);
+      this.items.push(name);
       },
       remove: function(name){
       return this.items.shift(name);
