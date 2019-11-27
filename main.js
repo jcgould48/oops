@@ -1,4 +1,8 @@
 const Stack = function() {
+  return {
+    items : [],
+  }
+  items.push();
 }
 
 const Queue = function() {
